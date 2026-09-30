@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomiNeni - Kuliner Khas UMKM Cimahi</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navbar Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-slate-100 transition-all">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-tr from-amber-500 to-orange-500 rounded-2xl flex items-center justify-center text-white font-black text-xl shadow-md shadow-amber-500/20">
+                    H
+                </div>
+                <div>
+                    <span class="font-extrabold text-xl text-slate-900 tracking-tight block leading-none">HomiNeni</span>
+                    <span class="text-[10px] font-semibold text-amber-600 tracking-widest uppercase">UMKM Cimahi</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+                <a href="#home" class="hover:text-amber-600 transition-colors">Beranda</a>
+                <a href="#keunggulan" class="hover:text-amber-600 transition-colors">Keunggulan</a>
+                <a href="#menu" class="hover:text-amber-600 transition-colors">Menu Pilihan</a>
+                <a href="#testimoni" class="hover:text-amber-600 transition-colors">Testimoni</a>
+                <a href="#lokasi" class="hover:text-amber-600 transition-colors">Lokasi</a>
+            </nav>
+
+            <a href="https://wa.me/6282113468833" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 shadow-lg shadow-emerald-500/20 transition-all transform hover:-translate-y-0.5">
+                <i class="fab fa-whatsapp text-base"></i>
+                <span>Pesan WA</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-28 pb-16 md:pt-36 md:pb-24 px-4 bg-gradient-to-b from-amber-500/10 via-orange-500/5 to-transparent relative overflow-hidden">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center md:text-left">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-100 text-amber-800 text-xs font-bold tracking-wide uppercase">
+                    <i class="fas fa-fire text-amber-600"></i> Kuliner Hits Cimahi
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-tight">
+                    Cita Rasa Rumahan <br class="hidden lg:block"><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-600">Istimewa & Lezat</span>
+                </h1>
+                <p class="text-slate-600 text-base md:text-lg max-w-xl">
+                    Nikmati kelezatan Ayam Cigarian Cheese Garlic, Ayam Taliwang, Ayam Betutu, hingga aneka lauk komplit khas HomiNeni. Siap diantar langsung ke rumah Anda!
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-2">
+                    <a href="#menu" class="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold px-7 py-3.5 rounded-2xl shadow-lg shadow-amber-500/25 transition-all text-center">
+                        Lihat Menu Lengkap
+                    </a>
+                    <a href="https://wa.me/6282113468833" target="_blank" class="bg-white border-2 border-slate-200 hover:border-amber-500 text-slate-700 hover:text-amber-600 font-bold px-7 py-3.5 rounded-2xl transition-all text-center">
+                        Pesan Catering
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative flex justify-center">
+                <div class="w-full max-w-md aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-slate-200 relative group">
+                    <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6137f2e0-320e-458f-a3ac-53aaa037f8f9_Go-Food-Merchant_20260228_205839.jpeg?auto=format&w=500&h=500" alt="HomiNeni Kuliner Cimahi" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white">
+                        <span class="bg-emerald-500 text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-md tracking-wider">Fresh & Higienis</span>
+                        <h3 class="text-xl font-bold mt-1">Ayam Cigarian</h3>
+                        <p class="text-xs text-slate-200">Sensasi gurih renyah dengan sambal spesial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section id="keunggulan" class="py-16 px-4 bg-white border-y border-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Alasan Memilih Kami</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-1">Keunggulan Kuliner HomiNeni</h2>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 mx-auto bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-base mb-2">Bumbu Meresap</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Diracik dengan resep rempah khas yang meresap hingga ke dalam daging.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 mx-auto bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-base mb-2">Bahan Segar</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Menggunakan olahan ayam dan bahan baku segar harian tanpa bahan pengawet.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 mx-auto bg-red-100 text-red-600 rounded-2xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-pepper-hot"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-base mb-2">Sambal Khas</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Pilihan Sambal Mala Mix, Ijo, dan Sambal Merah yang mantap menggugah selera.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 mx-auto bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-base mb-2">Terima Catering</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Melayani pesanan nasi box harian, syukuran, dan berbagai acara spesial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Daftar Menu Favorit</h2>
+            <p class="text-slate-600 mt-2">Pilih sajian kesukaanmu dan lakukan pemesanan cepat via WhatsApp</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-3xl p-4 shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="relative h-52 rounded-2xl overflow-hidden mb-4">
+                        <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/af5f8f0c-1a73-42b1-80bf-be8492d7c53e_Go-Food-Merchant_20260629_114356.jpeg?auto=format&amp;w=500&amp;h=500" alt="Ayam Cigarian Mala Mix disajikan sebagai hidangan utama di atas piring, dengan suasana foto makanan yang menggugah selera dan latar belakang sederhana" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-amber-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow">Best Seller</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Ayam Cigarian Mala Mix</h3>
+                    <p class="text-slate-500 text-xs mt-1 leading-relaxed">Ayam Cigarian Mala Mix yang dipadu dengan sambal Mala khas HomiNeni.</p>
+                </div>
+                <div class="flex items-center justify-between pt-4 mt-4 border-t border-slate-100">
+                    <div>
+                        <span class="text-[10px] text-slate-400 block font-medium">Harga</span>
+                        <span class="text-lg font-extrabold text-amber-600">Rp 20.800</span>
+                    </div>
+                    <a href="https://wa.me/6282113468833" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 shadow-md shadow-emerald-500/20 transition">
+                        <i class="fab fa-whatsapp"></i> Order
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-3xl p-4 shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="relative h-52 rounded-2xl overflow-hidden mb-4">
+                        <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/88e522b2-617d-4b66-b9d7-539b03b3413b_Go-Biz_20231206_052602.jpeg?auto=format&w=500&h=500" alt="Menu HomiNeni" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-orange-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow">Rempah Khas</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Paket Nasi Ayam Taliwang</h3>
+                    <p class="text-slate-500 text-xs mt-1 leading-relaxed">Ayam bakar bumbu Taliwang racikan khas HomiNeni dengan rasa pedas gurih yang meresap sempurna.</p>
+                </div>
+                <div class="flex items-center justify-between pt-4 mt-4 border-t border-slate-100">
+                    <div>
+                        <span class="text-[10px] text-slate-400 block font-medium">Harga</span>
+                        <span class="text-lg font-extrabold text-amber-600">Rp 18.000</span>
+                    </div>
+                    <a href="https://wa.me/6282113468833" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 shadow-md shadow-emerald-500/20 transition">
+                        <i class="fab fa-whatsapp"></i> Order
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-3xl p-4 shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="relative h-52 rounded-2xl overflow-hidden mb-4">
+                        <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/97bb1590-75ee-4bff-b2e2-14ca3914d11a_Go-Biz_20231206_052617.jpeg?auto=format&w=500&h=500" alt="Menu HomiNeni" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-red-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow">Rekomendasi</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Paket Nasi Ayam Betutu</h3>
+                    <p class="text-slate-500 text-xs mt-1 leading-relaxed">Sajian ayam betutu bumbu kaya rempah lengkap dengan nasi hangat, sambal khas, dan pelengkap.</p>
+                </div>
+                <div class="flex items-center justify-between pt-4 mt-4 border-t border-slate-100">
+                    <div>
+                        <span class="text-[10px] text-slate-400 block font-medium">Harga</span>
+                        <span class="text-lg font-extrabold text-amber-600">Rp 21.200</span>
+                    </div>
+                    <a href="https://wa.me/6282113468833" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 shadow-md shadow-emerald-500/20 transition">
+                        <i class="fab fa-whatsapp"></i> Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="py-16 px-4 bg-amber-500/5 border-y border-amber-500/10">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Ulasan Pelanggan</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-1">Apa Kata Mereka?</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex text-amber-400 text-sm gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-xs italic leading-relaxed">"Ayam Cigarian Mala-nya juara banget! Dagingnya gurih dan sambalnya nagih. Pengiriman area Cibeber juga cepet."</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-3">
+                        <div class="w-8 h-8 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-xs">R</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-xs">Rina S.</h4>
+                            <span class="text-[10px] text-slate-400">Pelanggan Setia Cimahi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex text-amber-400 text-sm gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-xs italic leading-relaxed">"Pernah pesan catering box buat acara di rumah, semua tamu suka sama Bumbu Taliwang & Betutunya. Mantap!"</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-3">
+                        <div class="w-8 h-8 bg-orange-100 text-orange-700 rounded-full flex items-center justify-center font-bold text-xs">B</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-xs">Bapak Hendra</h4>
+                            <span class="text-[10px] text-slate-400">Puri Fajar, Cibeber</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex text-amber-400 text-sm gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-xs italic leading-relaxed">"Menu-menunya variatif dan harganya pas dikantong. Sambal ijonya juga enak banget dikombinasiin sama nasi hangat."</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-3">
+                        <div class="w-8 h-8 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-xs">D</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-xs">Dina N.</h4>
+                            <span class="text-[10px] text-slate-400">Pecinta Kuliner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi & Kontak Section -->
+    <section id="lokasi" class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div>
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Alamat Resmi</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Lokasi Outlet HomiNeni</h2>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center shrink-0">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm">Alamat Lengkap</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-0.5">Jl. Fajar Tim. V No.11 Blk A8, Cibeber, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40531</p>
+                            <a href="https://maps.app.goo.gl/FSHM3iForRUHtVDa9?g_st=aw" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-600 hover:text-amber-700 mt-2">
+                                <i class="fas fa-directions"></i> Buka Petunjuk Arah Google Maps
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                            <i class="fab fa-whatsapp text-lg"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm">Nomor WhatsApp</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-0.5">0821-1346-8833</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center shrink-0">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm">Jam Operasional</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-0.5">Buka Setiap Hari (09:00 - 20:30 WIB)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bagian IFRAME Peta (Url Embed Valid) -->
+            <div class="h-80 rounded-3xl overflow-hidden shadow-xl border-4 border-slate-100 relative group">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Komplek%20Puri%20Fajar%20Cibeber%20Cimahi&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    class="w-full h-full border-0" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+                <a href="https://maps.app.goo.gl/FSHM3iForRUHtVDa9?g_st=aw" target="_blank" class="absolute bottom-4 right-4 bg-white/95 hover:bg-white text-slate-900 text-xs font-bold px-4 py-2 rounded-xl shadow-lg border border-slate-200 flex items-center gap-2 transition">
+                    <i class="fas fa-external-link-alt text-amber-600"></i> Buka Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-10 px-4 text-center text-xs border-t border-slate-800">
+        <p>&copy; 2026 HomiNeni UMKM Cimahi. Seluruh hak cipta dilindungi.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6282113468833" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 transition transform hover:scale-110">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
